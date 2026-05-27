@@ -7,6 +7,27 @@ public class Jogo {
     protected Computador computador = new Computador();
 
     public Jogo {
-        
+
+    }
+
+    public Carta distribuiCartaParaJogador(Jogador jogador){
+
+    }
+
+    public boolean acabou (){
+
+
+    }
+
+    public String resultado (){
+
+    }
+
+    public Computador getComputador() {
+        return computador;
+    }
+
+    public Jogador getJogador() {
+        return jogador;
     }
 }
