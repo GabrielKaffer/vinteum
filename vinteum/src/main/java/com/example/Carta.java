@@ -6,7 +6,8 @@ public class Carta {
    private Naipe naipe;
 
    public Carta (int numero, Naipe naipe){
-
+      this.numero = numero;
+      this.naipe - naipe;
    }
 
    public imagePath(){
@@ -15,10 +16,14 @@ public class Carta {
    }
 
    public int getNumero() {
+
+
       return numero;
+
    }
 
    public Naipe getNaipe() {
+
       return naipe;
    }
 
